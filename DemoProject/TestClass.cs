@@ -24,6 +24,10 @@ namespace DemoProject
         {
             Console.WriteLine("Division: " + (a / b));
         }
+        public void Mod(double a, double b)
+        {
+            Console.WriteLine("Mod: " + (a % b));
+        }
     }
     class TestClass
     {
@@ -34,6 +38,7 @@ namespace DemoProject
             o.Substraction(10, 5);
             o.Multiplication(10, 5);
             o.Division(10, 5);
+            o.Mod(10, 5);
         }
     }
 }
