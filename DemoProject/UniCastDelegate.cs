@@ -16,7 +16,7 @@ namespace DemoProject
         }
         public void sub(double a, double b)
         {
-            Console.WriteLine("Substraction of two numbers: " + (a + b));
+            Console.WriteLine("Substraction of two numbers: " + (a - b));
         }
     }
 
@@ -29,7 +29,7 @@ namespace DemoProject
             AddDel ad = new AddDel(m.add);
             SubDel sd = new SubDel(m.sub);
             ad(20.35, 36.04);
-            sd(3.14, 2.4);
+            sd(5.14, 1.23);
         }
     }
 }
