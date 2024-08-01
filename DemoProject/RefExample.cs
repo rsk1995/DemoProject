@@ -10,9 +10,10 @@ namespace DemoProject
     {
         static void Main()
         {
-            int a = 10;
+            Console.Write("Enter any numner: ");
+            int a = Convert.ToInt32(Console.ReadLine()); ;
             IncrementValue(ref a);
-            Console.WriteLine("Value passed as 10 & incremented value is: " + a);
+            Console.WriteLine("Incremented value is: " + a);
         }
         static void IncrementValue(ref int b)
         {
